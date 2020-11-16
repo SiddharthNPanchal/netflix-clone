@@ -26,3 +26,8 @@
   transform: scale(1.1);
   opacity: 0.5;
 }
+.title {
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

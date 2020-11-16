@@ -34,7 +34,7 @@
   font-weight: 500;
   max-width: 360px;
   background-color: rgba(51, 51, 51, 0.5);
-  box-shadow: 1px 2px;
+
   border: none;
 }
 .bannerButton:hover {
@@ -42,14 +42,15 @@
   color: black;
   transition: 450ms;
 }
-/* .fadeBottom {
-  margin-top: 110px;
+
+.fadeBottom {
+  margin-top: 210px;
   height: 46px;
 
   background-image: linear-gradient(
-    to bottom,
+    180deg,
     transparent,
-    rgb(48, 42, 42),
-    rgb(71, 71, 65)
+    rgb(17, 17, 17),
+    rgb(53, 52, 52)
   );
-} */
+}
