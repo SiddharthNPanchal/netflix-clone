@@ -19,7 +19,8 @@
   opacity: 0.5;
 }
 .rowPosterLarge {
-  max-height: 250;
+  height: 250;
+  width: 250;
 }
 .rowPosterLarge:hover {
   transform: scale(1.1);
