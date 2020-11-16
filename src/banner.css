@@ -5,7 +5,7 @@
 }
 .contents {
   margin-left: 30px;
-  padding-top: 140px;
+  padding-top: 70px;
 }
 .headerTitle {
   font-size: x-large;
@@ -15,11 +15,11 @@
 }
 .overview {
   font-size: small;
-  line-height: 1.5;
-  padding-top: 20px;
+  line-height: 1.2;
+  padding-top: 10px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  max-width: 4000px;
-  height: 80px;
+  max-width: 400px;
+  height: 60px;
 }
 .bannerButton {
   width: 50px;
@@ -41,7 +41,7 @@
   color: black;
   transition: 450ms;
 }
-.fadeBottom {
+/* .fadeBottom {
   margin-top: 110px;
   height: 46px;
 
@@ -51,4 +51,4 @@
     rgb(48, 42, 42),
     rgb(71, 71, 65)
   );
-}
+} */
