@@ -55,13 +55,11 @@ function Row({title, fetchUrl, isLargeRow}){
             
             {movies.map(movie => {
                     console.log(movie.poster_path);
-                    
                     return( <img key = {movie.id} 
                         onClick = {()=>handleClick(movie)}
                         src={`${base_url}${isLargeRow ? movie.poster_path : movie.backdrop_path}`} 
                     className={`posterStyle ${isLargeRow && "rowPosterLarge"}`}
-                     alt="movie.original_title" />) 
-                 
+                     alt="movie.original_title" />)      
             })}
             </div>
             <div className="row_name">
